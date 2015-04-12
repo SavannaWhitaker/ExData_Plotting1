@@ -15,3 +15,4 @@ lines(power.use$Time,power.use$Sub_metering_2,col="red")
 lines(power.use$Time,power.use$Sub_metering_3,col="blue")
 legend("topright",col=c("black","red","blue"),lty=1,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 dev.off()
+
