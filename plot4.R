@@ -14,7 +14,7 @@ par(mfrow=c(2,2))
 #plot1
 plot(power.use$Time,power.use$Global_active_power,type="l",xlab="",ylab="Global Active Power")
 #plot2
-plot(power.use$Time,power.use$Global_active_power,type="l",xlab="datetime",ylab="voltage")
+plot(power.use$Time,power.use$Voltage,type="l",xlab="datetime",ylab="voltage")
 #plot3
 plot(power.use$Time,power.use$Sub_metering_1,col="black",type="l",xlab="",ylab="Energy sub metering")
 lines(power.use$Time,power.use$Sub_metering_2,col="red")
